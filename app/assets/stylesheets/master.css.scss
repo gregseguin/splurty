@@ -1,5 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 
+/* When the screen is small, use these stles instead */
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: center;
+  }
+}
+
 .clear {
 	clear:both;
 }
@@ -24,7 +31,6 @@
     -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
 }
 
-/* Modern Georgia-based serif stack */
 
 .slogan {
   font-family: "Lato", serif;
@@ -63,16 +69,10 @@ h2 {
   font-family: "Lato", serif;
 }
 
-.next-quote {
-  color:#f84342;
-  font-family: "Lato", serif;
-  font-size:20px;
-}
-
 .footer-blurb {
   font-family: "Lato", serif;
   font-style: italic;
-  text-align: right;
+  text-align: center;
   font-size: 10px;
 }
 
@@ -84,11 +84,6 @@ h2 {
   font-family: "Lato", serif;
 }
 
-@media (max-width: 750px) {
-  .footer-blurb {
-    text-align: left;
-  }
-}
 
 .modal {
   font-family: "Lato", serif;
