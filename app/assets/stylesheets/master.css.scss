@@ -2,9 +2,11 @@
 
 /* When the screen is small, use these stles instead */
 @media (max-width: 750px) {
+
   .footer-blurb {
     text-align: center;
   }
+
 }
 
 .clear {
@@ -95,4 +97,15 @@ h2 span {
 
 ::selection {
   background-color: #f84342;
+}
+
+.square {
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #1E1E1E;
+}
+
+.thumbnail {
+    border: 0 none;
+    box-shadow: none;
 }
