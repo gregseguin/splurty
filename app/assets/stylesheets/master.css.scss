@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+@import url(https://fonts.googleapis.com/css?family=Passion+One);
 
 /* When the screen is small, use these styles instead */
 @media (max-width: 750px) {
@@ -9,41 +10,49 @@
 
 }
 
+header {
+  display: block;
+  border-top: 15px solid #302B27;
+  background-color: #274690;
+  overflow: auto;
+}
+
 .clear {
 	clear:both;
 }
 
-.circle {
+.douzie-logo {
     font-weight:bold;
-    font-style: italic;
     position: relative;
-    border-radius: 100%;
-    background: #f84342;
-    border: 1px solid #F7F7F7;
-    width: 80px;
-    height: 80px;
+    border-radius: 15px;
+    background: #576CA8;
+    width: 60px;
+    height: 60px;
     margin: 10px 10px;
     text-align: center;
-    color: #FFF;
-    font-size: 10px;
-    line-height: 16px;
-    cursor: pointer;
-    transform:rotate(11deg);
-    -ms-transform:rotate(11deg); /* IE 9 */
-    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+    color: #F5F3F5;
+    font-size: 20px;
+    line-height: 20px;
+    float: left;
 }
 
+.logo-text {
+  float: left;
+  margin-top: 30px;
+  font-size: 28px;
+  line-height: 20px;
+  color: #F5F3F5;
+  text-decoration: none;
+  font-family: "Passion One";
+}
 
 .slogan {
+  font-size: 12px;
   font-family: "Lato", serif;
   font-style: italic;
-  padding-top: 26px;
+  color: #F5F3F5;
 }
 
-.links {
-  padding-top:26px;
-
-}
 
 .links a {
   color:black;
@@ -53,12 +62,12 @@
   font-weight: bold;
 }
 
-header {
-	border-top: 15px solid #222222;
-}
 
 hr {
   clear:both;
+}
+
+.container {
 }
 
 h1 {
@@ -96,7 +105,7 @@ h2 span {
 }
 
 ::selection {
-  background-color: #f84342;
+  background-color: #00A896;
 }
 
 .square {
